@@ -1,7 +1,7 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_svg/svg.dart';
+
 import 'package:pharmago/data/local/get_data.dart';
 import 'package:pharmago/presentation/base/loading.dart';
 import 'package:pharmago/presentation/base/v2/expanded_section.dart';
@@ -150,10 +150,10 @@ class _MenuV2PageState extends State<MenuV2Page>
                 routePage: const ServiceV2Route(),
               ),
             MenuModel(
-                title: 'Tích điểm và quà tặng',
-                leading: FaIcon(iconCode: 'f145'),
-                routePage: const SettingPointRoute(),
-              ),
+              title: 'Tích điểm và quà tặng',
+              leading: FaIcon(iconCode: 'f145'),
+              routePage: const SettingPointRoute(),
+            ),
           ],
         },
         if (isWorkspace)

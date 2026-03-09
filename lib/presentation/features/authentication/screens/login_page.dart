@@ -100,7 +100,7 @@ class _LoginPageState extends State<LoginPage> {
                     children: [
                       const Spacer(),
                       Image.asset(
-                        '${AssetsPath.image}/pharmago_v2.png',
+                        '${AssetsPath.image}/logo.png',
                         width: sp64,
                       ),
                       gapHeight(sp16),

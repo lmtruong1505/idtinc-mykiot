@@ -9,11 +9,11 @@ class _ChooseWorkspaceState extends State<_ChooseWorkspace> {
   @override
   Widget build(BuildContext context) {
     final bloc = context.read<MenuCompanyBloc>();
-    
+
     return Row(
       children: [
-        SvgPicture.asset(
-          Assets.logoNew,
+        Image.asset(
+          Assets.logo,
           width: 32,
           height: 32,
         ),

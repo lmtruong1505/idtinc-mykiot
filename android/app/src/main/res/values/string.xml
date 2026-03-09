@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
     <!-- <string name="app_name">Mykiot</string> -->
-    <string name="title_activity_main">Pharmago</string>
+    <string name="title_activity_main">Mykios</string>
     <string name="package_name">com.domain.appname</string>
     <string name="custom_url_scheme">com.domain.appname</string>
     <string name="default_notification_channel_id">com.idtinc.pharmago.urgent</string>

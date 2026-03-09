@@ -2,7 +2,7 @@ part of 'init_app_style.dart';
 
 class AppColors {
   AppColors._();
-  static const Color brand = Color(0xFF00AB56);
+  static const Color brand = Color(0xFFEF5249);
   static const Color brand5 = Color(0xFFF2F9F5);
 
   //black

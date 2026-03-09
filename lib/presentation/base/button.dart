@@ -25,7 +25,7 @@ class MainButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return ElevatedButton(
       style: ElevatedButton.styleFrom(
-        backgroundColor: AppColors.button_brand_solid_backgroundDefault,
+        backgroundColor: AppColors.button_negative_ghost_iconDefault,
         padding: EdgeInsets.symmetric(
           vertical: largeButton ? sp16 : sp8,
           horizontal: largeButton ? sp16 : sp12,

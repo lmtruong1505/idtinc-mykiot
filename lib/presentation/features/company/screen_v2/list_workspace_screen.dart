@@ -4,7 +4,7 @@ import 'package:auto_route/auto_route.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_svg/svg.dart';
+
 import 'package:pharmago/gen/flutter_assets.dart';
 import 'package:pharmago/presentation/base/cache_image.dart';
 import 'package:pharmago/presentation/check_version/check_vesion.dart';
@@ -152,7 +152,7 @@ class _ListWorkspaceScreenState extends State<ListWorkspaceScreen> {
                         },
                         child: Row(
                           children: [
-                            SvgPicture.asset(Assets.logoNew),
+                            Image.asset(Assets.logo, height: 32),
                           ],
                         ).padding(16.padingHor),
                       ),
@@ -211,15 +211,16 @@ class _ListWorkspaceScreenState extends State<ListWorkspaceScreen> {
                 child: TabBtn(
                   label: 'Sở hữu',
                   count: state.count ?? 0,
-                  color: state.isOwner ? AppColors.ultility_brand_60 : null,
+                  color: state.isOwner ? AppColors.ultility_negative_60 : null,
                 ),
               ),
               Tab(
                 child: TabBtn(
                   label: 'Nơi làm việc',
                   count: state.countWorking ?? 0,
-                  color:
-                      state.isWorkingPlace ? AppColors.ultility_brand_60 : null,
+                  color: state.isWorkingPlace
+                      ? AppColors.ultility_negative_60
+                      : null,
                 ),
               ),
             ],
