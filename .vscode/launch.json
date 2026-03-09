@@ -1,0 +1,60 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Pharmago(Dev)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "args": [
+                "--dart-define",
+                "DART_DEFINES_APP_NAME=Mykiot(Dev)",
+                "--dart-define",
+                "DART_DEFINES_APP_SUFFIX=.dev",
+                "--dart-define",
+                "DART_DEFINES_BASE_URL_HTTP=http://127.0.0.1:8000/api",
+                "--dart-define",
+                "DART_DEFINES_URL_KAFA=https://api.kafa.pro",
+                "--dart-define",
+                "MODE=dev"
+            ]
+        },
+        {
+            "name": "Pharmago(Stg)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "args": [
+                "--dart-define",
+                "DART_DEFINES_APP_NAME=Mykiot(Stg)",
+                "--dart-define",
+                "DART_DEFINES_APP_SUFFIX=.stg",
+                "--dart-define",
+                "DART_DEFINES_BASE_URL_HTTP=https://159.65.129.155:8000/api",
+                "--dart-define",
+                "DART_DEFINES_BASE_URL=https://core.kafa.pro"
+            ]
+        },
+        {
+            "name": "Pharmago(Prod)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "args": [
+                "--dart-define",
+                "DART_DEFINES_APP_NAME=Pharmago",
+                "--dart-define",
+                "DART_DEFINES_APP_SUFFIX=",
+                "--dart-define",
+                "DART_DEFINES_BASE_URL_HTTP=https://api.pharmago.asia/api",
+                "--dart-define",
+                "DART_DEFINES_URL_KAFA=https://api.kafa.pro",
+                "--dart-define",
+                "MODE=pro"
+            ]
+        },
+    ]
+}

@@ -1,0 +1,24 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  errors:
+    invalid_annotation_target: ignore
+  exclude:
+    - '**.g.dart'
+    - '**.mocks.dart'
+  # language:
+  #   enableSuperMixins: true
+
+linter:
+  rules:
+    sized_box_for_whitespace: false
+    use_key_in_widget_constructors: false
+    always_declare_return_types: true
+    close_sinks: true
+    cancel_subscriptions: true
+    require_trailing_commas: true
+    empty_catches: false
+    prefer_single_quotes: true
+    unnecessary_await_in_return: true
+    prefer_final_in_for_each: true
+    prefer_final_locals: true

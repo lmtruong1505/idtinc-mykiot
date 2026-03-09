@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	</array>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>PHARMAGO-Store</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>PHARMAGO-Store</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(FLUTTER_BUILD_NAME)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>LSSupportsOpeningDocumentsInPlace</key>
+	<true/>
+	<key>NSAllowsArbitraryLoads</key>
+	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>Yêu cầu quyền truy cập camera giúp bạn quét mã sản phẩm để lấy thông tin sản phẩm</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Yêu cầu quyền danh bạ thêm thông số liên lạc Bác sĩ hoặc Khách hàng</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Sử dụng Face Id để xác thực đăng nhập</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Cần quyền truy cập để có thể sử dụng camera giúp bạn quét mã hoặc chụp ảnh sản phẩm dùng cho tạo sản phẩm</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Yêu cầu quyền truy cập thư viện ảnh để bạn có thể tải ảnh lên dùng cho tạo sản phẩm</string>
+	<key>NSUserNotificationsUsageDescription</key>
+	<string>Yêu cầu chức năng thông báo để thông báo cho bạn khi có đơn hàng và dịch vụ</string>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Cần truy cập Bluetooth để kết nối với máy in giúp bạn in hoá đơn</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Cần truy cập Bluetooth để kết nối với máy in giúp bạn in hoá đơn</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Cần truy cập vị trí để giúp bạn tìm thiết bị Bluetooth sử dụng khi bạn in hoá đơn</string>
+	<key>io.flutter.embedded_views_preview</key>
+    <string>YES</string>
+	<key>FirebaseAppDelegateProxyEnabled</key>
+	<false/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+	    <key>NSAllowsArbitraryLoads</key>
+	    <true/>
+	</dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>bluetooth-central</string>
+		<string>bluetooth-peripheral</string>
+		<string>fetch</string>
+		<string>processing</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UIFileSharingEnabled</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>io.flutter.embedded_views_preview</key>
+	<true/>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Lưu mã QR để người dùng có thể có thể sử dụng lại mà không cần truy cập vào ứng dụng</string>
+</dict>
+</plist>

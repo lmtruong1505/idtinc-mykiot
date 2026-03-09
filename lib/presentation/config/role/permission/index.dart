@@ -1,0 +1,14 @@
+part 'permission_data.dart';
+part 'permission_role_model.dart';
+part 'per_appointment_enum.dart';
+part 'per_branch_enum.dart';
+part 'per_customer_enum.dart';
+part 'per_emp_enum.dart';
+part 'per_market_enum.dart';
+part 'per_meical_enum.dart';
+part 'per_order_enum.dart';
+part 'per_order_input_enum.dart';
+part 'per_product_enum.dart';
+part 'per_role_enum.dart';
+part 'per_service_enum.dart';
+part 'per_warehouse_enum.dart';

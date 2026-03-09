@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "211762754489",
+    "project_id": "pharmago-de418",
+    "storage_bucket": "pharmago-de418.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211762754489:android:c0b3291b91e407f20b7c68",
+        "android_client_info": {
+          "package_name": "com.idtinc.pharmago"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAquJsuTgELgUmj3yLCT-ngCzomsO4UT2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

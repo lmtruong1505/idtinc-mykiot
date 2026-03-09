@@ -1,0 +1,42 @@
+syntax = "proto3";
+package pb;
+
+message Variant {
+  int32 id = 1;
+  string code = 2;
+  string name = 3;
+  string barcode = 4;
+  string decision_number = 5;
+  string register_number = 6;
+  string longevity = 7;
+  float vat = 8;
+  int32 product = 9;
+  string media = 10;
+  optional int32 quantity_in_stock = 11;
+  repeated Unit units = 12;
+  float price_sell = 13;
+  float price_import = 14;
+  optional float revenue = 15;
+}
+
+message Unit {
+  int32 id = 1;
+  string name = 2;
+  int32 value = 3;
+  float sell_price = 4;
+  float import_price = 5;
+  float weight = 6;
+  string weight_unit = 7;
+  bool default = 8;
+}
+
+message VariantScanRequest {
+  int32 company = 1;
+  string code = 2;
+}
+
+message VariantScanResponse {
+  int32 code = 1;
+  string message = 2;
+  optional Variant details = 3;
+}
