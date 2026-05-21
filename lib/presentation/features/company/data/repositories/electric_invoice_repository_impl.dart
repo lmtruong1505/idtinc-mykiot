@@ -323,7 +323,7 @@ class ElectricInvoiceRepositoryImpl extends ElectricInvoiceRepository {
       //   name: 'red_invoice_$orderId',
       //   mimeType: MimeType.pdf,
       //   link: LinkDetails(
-      //     link: 'https://api.pharmago.asia/api/v1/order/pdf-red-invoice',
+      //     link: 'https://mykiot-pharmago.too.onl/api/v1/order/pdf-red-invoice',
       //     headers: {
       //       'authorization': 'Bearer $token',
       //     },
@@ -333,7 +333,7 @@ class ElectricInvoiceRepositoryImpl extends ElectricInvoiceRepository {
       // );
       // log('--- res: $res');
       final res = await Dio().post(
-        'https://api.pharmago.asia/api/v1/order/pdf-red-invoice',
+        'https://mykiot-pharmago.too.onl/api/v1/order/pdf-red-invoice',
         data: payload,
         options: Options(
           responseType: ResponseType.bytes,

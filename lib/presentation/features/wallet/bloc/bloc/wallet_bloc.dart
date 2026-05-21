@@ -68,8 +68,8 @@ class WalletBloc extends Bloc<WalletEvent, WalletState> {
     // count = 5;
     print('---------------connectWalletSocket');
     String domain = 'wss://127.0.0.1:8000';
-    if (EnvironmentConfig.BASE_URL_HTTP.contains('api.pharmago.asia')) {
-      domain = 'wss://api.pharmago.asia';
+    if (EnvironmentConfig.BASE_URL_HTTP.contains('mykiot-pharmago.too.onl')) {
+      domain = 'wss://mykiot-pharmago.too.onl';
       // domain = 'wss://128.199.209.130:8000';
     }
     final wsUrl = Uri.parse('$domain/ws/wallet/${_wallet?.id}');
@@ -117,8 +117,8 @@ class WalletBloc extends Bloc<WalletEvent, WalletState> {
   ) async {
     try {
       String domain = 'wss://127.0.0.1:8000';
-      if (EnvironmentConfig.BASE_URL_HTTP.contains('api.pharmago.asia')) {
-        domain = 'wss://api.pharmago.asia';
+      if (EnvironmentConfig.BASE_URL_HTTP.contains('mykiot-pharmago.too.onl')) {
+        domain = 'wss://mykiot-pharmago.too.onl';
         // domain = 'wss://128.199.209.130:8000';
       }
       final wsUrl =

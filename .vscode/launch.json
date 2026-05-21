@@ -49,7 +49,7 @@
                 "--dart-define",
                 "DART_DEFINES_APP_SUFFIX=",
                 "--dart-define",
-                "DART_DEFINES_BASE_URL_HTTP=https://api.pharmago.asia/api",
+                "DART_DEFINES_BASE_URL_HTTP=https://mykiot-pharmago.too.onl/api",
                 "--dart-define",
                 "DART_DEFINES_URL_KAFA=https://api.kafa.pro",
                 "--dart-define",

@@ -287,6 +287,6 @@ class Api {
 }
 
 class SocketUrl {
-  static String domain = 'wss://api.pharmago.asia/ws';
+  static String domain = 'wss://mykiot-pharmago.too.onl/ws';
   static String invoiceStatus = '$domain/invoice-status/workspace';
 }

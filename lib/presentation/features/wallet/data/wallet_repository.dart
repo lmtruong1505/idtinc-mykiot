@@ -71,8 +71,8 @@ class WalletRepository {
     try {
       final payload = {
         'amount': amount,
-        'cancelUrl': 'https://api.pharmago.asia/api',
-        'returnUrl': 'https://api.pharmago.asia/api',
+        'cancelUrl': 'https://mykiot-pharmago.too.onl/api',
+        'returnUrl': 'https://mykiot-pharmago.too.onl/api',
       };
       final res =
           await _dio.post('${Api.wallet}/get-deposit-url', data: payload);

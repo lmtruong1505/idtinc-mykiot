@@ -34,10 +34,10 @@ build_apk_dev:
 	flutter build apk --dart-define=DART_DEFINES_BASE_URL_HTTP="https://core.kafa.pro"
 
 build_apk_pro:
-	fvm flutter build apk --dart-define=DART_DEFINES_BASE_URL_HTTP="https://api.pharmago.asia/api" --dart-define=DART_DEFINES_URL_KAFA="https://api.kafa.pro"
+	fvm flutter build apk --dart-define=DART_DEFINES_BASE_URL_HTTP="https://mykiot-pharmago.too.onl/api" --dart-define=DART_DEFINES_URL_KAFA="https://api.kafa.pro"
 
 build_appbundle:
-	fvm flutter build appbundle --release --dart-define=DART_DEFINES_BASE_URL_HTTP="https://api.pharmago.asia" --dart-define=DART_DEFINES_URL_KAFA="https://api.kafa.pro"
+	fvm flutter build appbundle --release --dart-define=DART_DEFINES_BASE_URL_HTTP="https://mykiot-pharmago.too.onl" --dart-define=DART_DEFINES_URL_KAFA="https://api.kafa.pro"
 
 build_runner:
 	flutter packages pub run build_runner watch --delete-conflicting-outputs
@@ -52,13 +52,13 @@ build_ios_pro:
 	flutter build ipa "--dart-define=MODE=dev" --dart-define=DART_DEFINES_BASE_URL_HTTP="https://159.65.129.155:8000/api" --dart-define=DART_DEFINES_URL_KAFA="https://core.kafa.pro"
 
 aab:
-	fvm flutter build appbundle "--dart-define=MODE=pro" --dart-define=DART_DEFINES_BASE_URL_HTTP="https://api.pharmago.asia/api" --dart-define=DART_DEFINES_URL_KAFA="https://api.kafa.pro"
+	fvm flutter build appbundle "--dart-define=MODE=pro" --dart-define=DART_DEFINES_BASE_URL_HTTP="https://mykiot-pharmago.too.onl/api" --dart-define=DART_DEFINES_URL_KAFA="https://api.kafa.pro"
 
 ipa:
-	flutter build ipa  "--dart-define=MODE=pro" --dart-define=DART_DEFINES_BASE_URL_HTTP="https://api.pharmago.asia/api" --dart-define=DART_DEFINES_URL_KAFA="https://api.kafa.pro"
+	flutter build ipa  "--dart-define=MODE=pro" --dart-define=DART_DEFINES_BASE_URL_HTTP="https://mykiot-pharmago.too.onl/api" --dart-define=DART_DEFINES_URL_KAFA="https://api.kafa.pro"
 
 apk:
-	flutter build apk "--dart-define=MODE=pro" --dart-define=DART_DEFINES_BASE_URL_HTTP="https://api.pharmago.asia/api" --dart-define=DART_DEFINES_URL_KAFA="https://api.kafa.pro"
+	flutter build apk "--dart-define=MODE=pro" --dart-define=DART_DEFINES_BASE_URL_HTTP="https://mykiot-pharmago.too.onl/api" --dart-define=DART_DEFINES_URL_KAFA="https://api.kafa.pro"
 	
 rm:
 	flutter clean && flutter pub get && rm -rf ios/Pods ios/Podfile.lock && cd ios && pod install
@@ -73,5 +73,5 @@ run_terminal:
 	fvm flutter run lib/main.dart -d $(device) \
 		--dart-define=DART_DEFINES_APP_NAME=Pharmago \
 		--dart-define=DART_DEFINES_APP_SUFFIX= \
-		--dart-define=DART_DEFINES_BASE_URL_HTTP=https://api.pharmago.asia/api \
+		--dart-define=DART_DEFINES_BASE_URL_HTTP=https://mykiot-pharmago.too.onl/api \
 		--dart-define=DART_DEFINES_BASE_URL=https://api.kafa.pro
